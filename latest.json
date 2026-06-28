@@ -12,6 +12,10 @@
                       "sizeBytes":  138317019
                   },
     "changelog":  [
-                      "Public release repository introduced for downloads and update metadata."
+                      "Public release repository introduced for downloads and update metadata.",
+                      "Improved catalog grouping and screensaver search.",
+                      "Improved fullscreen playback shutdown so audio stops more reliably.",
+                      "Background notification now appears only once.",
+                      "YouTube captions are disabled where the embedded player allows it."
                   ]
 }
