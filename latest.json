@@ -1,0 +1,17 @@
+{
+    "product":  "YT Screensaver Manager",
+    "channel":  "stable",
+    "version":  "0.2.3",
+    "minimumVersion":  "0.2.0",
+    "publishedAt":  "2026-06-28T13:33:28.4797045Z",
+    "releaseUrl":  "https://github.com/zdwudm/YTScreensaverManager-Releases/releases/tag/v0.2.3",
+    "installer":  {
+                      "url":  "https://github.com/zdwudm/YTScreensaverManager-Releases/releases/download/v0.2.3/YtScreensaverManagerSetup-0.2.3-win-x64.exe",
+                      "fileName":  "YtScreensaverManagerSetup-0.2.3-win-x64.exe",
+                      "sha256":  "C37FDF783DADC2A118C33A04B5F7AEFAD9E6692E49D42ECE784CDC2781852CB2",
+                      "sizeBytes":  138317019
+                  },
+    "changelog":  [
+                      "Public release repository introduced for downloads and update metadata."
+                  ]
+}
