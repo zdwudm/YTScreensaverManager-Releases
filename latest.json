@@ -1,18 +1,18 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.5",
+    "version":  "0.2.6",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-28T21:16:51.9760361Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.5",
+    "publishedAt":  "2026-06-29T08:40:21.3669577Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.6",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.5/ScreensaverVideoPlayerSetup-0.2.5-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.5-win-x64.exe",
-                      "sha256":  "665656E85AE68ED36378E6B70823398C909E7DAB1FEFFE52DA9B681F62A14489",
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.6/ScreensaverVideoPlayerSetup-0.2.6-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.6-win-x64.exe",
+                      "sha256":  "2E4C92CCE810F86B3D29B9B6EFB87119427664C091ACDFFA62CDF0E9454E1E4E",
                       "sizeBytes":  138376935
                   },
     "changelog":  [
-                      "Improved YouTube Studio traffic attribution by using app.screensaver.pro as the embedded player origin.",
-                      "Added an explicit cross-origin referrer policy for YouTube playback."
+                      "Fixed YouTube playback in the downloadable app by restoring the stable local WebView origin.",
+                      "Improved diagnostics for YouTube player errors by recording the player error code."
                   ]
 }
