@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.9",
+    "version":  "0.2.10",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T12:47:56.3634684Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.9",
+    "publishedAt":  "2026-06-30T13:49:44.4587047Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.10",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.9/ScreensaverVideoPlayerSetup-0.2.9-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.9-win-x64.exe",
-                      "sha256":  "1186CFC61807D3AC3EC75BBBDC7CD6FE478A55CD1097A2F1DDA769C033455114",
-                      "sizeBytes":  138392807
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.10/ScreensaverVideoPlayerSetup-0.2.10-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.10-win-x64.exe",
+                      "sha256":  "5FF05FEE69EB5767DE8500AE734F649D673DF1637F0B8219FABAFE9D5EDF827F",
+                      "sizeBytes":  138393831
                   },
     "changelog":  [
-                      "Fixed automatic screensaver startup after Windows lock and unlock.",
-                      "Added session lock and unlock handling for idle monitoring.",
-                      "Improved diagnostics for idle startup decisions."
+                      "Start with Windows now launches in the tray instead of opening the main window.",
+                      "Background startup suppresses preview audio until the app is opened.",
+                      "Minimize and close now keep the app running cleanly in the tray."
                   ]
 }
