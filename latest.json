@@ -1,19 +1,18 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.14",
+    "version":  "0.2.15",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-07-01T09:58:42.4531391Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.14",
+    "publishedAt":  "2026-07-01T14:06:43.9178447Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.15",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.14/ScreensaverVideoPlayerSetup-0.2.14-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.14-win-x64.exe",
-                      "sha256":  "5F7CC760EB4F0F9D2796396FB6CFA72AF4B8819534991F7383DFC490D6BDA547",
-                      "sizeBytes":  138414823
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.15/ScreensaverVideoPlayerSetup-0.2.15-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.15-win-x64.exe",
+                      "sha256":  "49BCE952171FC2C00FFF1DB4CB864F6F4A2BEC213705D317581DEF1A97FC0615",
+                      "sizeBytes":  138414311
                   },
     "changelog":  [
-                      "Show a visible update progress window while downloading updates from within the app.",
-                      "Show a persistent installer progress window during first install and updates.",
-                      "Report downloaded megabytes and percent when the installer size is known."
+                      "Fix the installer progress window layout so text no longer overlaps or gets clipped on scaled displays.",
+                      "Use shorter, clearer installer progress labels for installation and update steps."
                   ]
 }
