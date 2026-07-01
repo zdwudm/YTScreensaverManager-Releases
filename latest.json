@@ -1,19 +1,19 @@
 {
     "product":  "Screensaver Video Player",
     "channel":  "stable",
-    "version":  "0.2.12",
+    "version":  "0.2.13",
     "minimumVersion":  "0.2.0",
-    "publishedAt":  "2026-06-30T16:17:26.9583195Z",
-    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.12",
+    "publishedAt":  "2026-07-01T09:42:40.0586191Z",
+    "releaseUrl":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/tag/v0.2.13",
     "installer":  {
-                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.12/ScreensaverVideoPlayerSetup-0.2.12-win-x64.exe",
-                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.12-win-x64.exe",
-                      "sha256":  "E96E9CBB0D2C285A8E018DB3A6229234397E44BF6E60D287822F2993938329B5",
-                      "sizeBytes":  138399975
+                      "url":  "https://github.com/zdwudm/screensaver-video-player-releases/releases/download/v0.2.13/ScreensaverVideoPlayerSetup-0.2.13-win-x64.exe",
+                      "fileName":  "ScreensaverVideoPlayerSetup-0.2.13-win-x64.exe",
+                      "sha256":  "FA0E4BE7A10CE744769195F32AB3A626DDE7A82D576E621E24CEAC63E1B34391",
+                      "sizeBytes":  138402023
                   },
     "changelog":  [
-                      "Add tray menu options to pause automatic screensaver start for 1, 2, 4, or 8 hours, or until tomorrow.",
-                      "Persist the pause state locally so it survives app and Windows restarts.",
-                      "Show pause status and resume action directly in the tray menu."
+                      "Make in-app updates more robust by installing each new version into a versioned app folder instead of overwriting locked files in place.",
+                      "Update shortcuts, uninstall metadata, and existing autostart entries to point to the new versioned app folder.",
+                      "Pass the running app process ID to future installers and dispose WebView resources before shutdown."
                   ]
 }
